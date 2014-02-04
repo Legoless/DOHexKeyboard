@@ -199,7 +199,7 @@ static CGFloat const kKeySpace = 1;
     // Calculate the selected text to delete
     UITextPosition  *startPosition = [_input positionFromPosition:selectedTextRange.start offset:-1];
     if (!startPosition) {
-        return;
+        //return;
     }
     UITextPosition *endPosition = selectedTextRange.end;
     if (!endPosition) {
